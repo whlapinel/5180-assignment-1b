@@ -52,10 +52,11 @@ public class MainActivity extends AppCompatActivity {
         try {
             if (conversionType.equals("C to F")) {
                 convertedTemperature = (temperature * 9 / 5) + 32;
+                this.convertedTemperature.setText(String.format("%.2f", convertedTemperature) + "°" + "F");
             } else {
                 convertedTemperature = (temperature - 32) * 5 / 9;
+                this.convertedTemperature.setText(String.format("%.2f", convertedTemperature) + "°" + "C");
             }
-            this.convertedTemperature.setText(String.format("%.2f", convertedTemperature));
         } catch (NumberFormatException e) {
             this.convertedTemperature.setText("Invalid input");
         }
