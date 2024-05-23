@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             inputTemperature.setText("");
             convertedTemperature.setText("");
             RadioGroup radioGroup = findViewById(R.id.radioGroup);
-            radioGroup.clearCheck();
+            radioGroup.check(R.id.radioButton);
         });
     }
 

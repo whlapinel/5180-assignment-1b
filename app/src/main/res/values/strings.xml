@@ -2,7 +2,8 @@
     <string name="app_name">assignment1b</string>
     <string name="title">Temperature Conversion</string>
     <string name="input_temperature_label">Temperature: </string>
-    <string name="input_temperature">Enter Temperature</string>
+    <string name="input_temperature_placeholder">Enter Temperature</string>
+    <string name="input_temperature"> </string>
     <string name="converted_temperature_label">Conversion: </string>
     <string name="converted_temperature">N/A</string>
     <string name="radio_group_label">Select conversion: </string>
